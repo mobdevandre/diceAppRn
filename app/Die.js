@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
 import { StyleSheet, Text, View, Image, Button } from "react-native";
 
-export default function App() {
+export default function Die() {
   const [die, setDie] = useState(0);
   const [dieTwo, setDieTwo] = useState(0);
   const [image, setImage] = useState(require("../assets/questionMark.jpeg"));

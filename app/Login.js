@@ -8,7 +8,7 @@ export default function Login({ navigation }) {
     console.log("Name:", name);
     console.log("Password:", password);
     if (name == "Andre") {
-      navigation.navigate("Die");
+      navigation.navigate("Home");
     }
   };
   return (
